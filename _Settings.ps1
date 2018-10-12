@@ -1,7 +1,7 @@
 ﻿#Version 18.39.3
 
 #Enter Container Name here
-$ContainerName = 'EpicIn18'
+$ContainerName = 'NAV2018'
 
 # Nav User Credentials used for New Docker Images 
 $UserName = 'NAVUser'
