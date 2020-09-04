@@ -5,7 +5,11 @@ $ContainerName = 'NAV2018'
 
 # Enter your Container Name and Docker Image to use here:
 # Image Name for NAV: microsoft/dynamics-nav:2018-cu#-Country - ex microsoft/dynamics-nav:2018-cu9-na for a North American version of NAV 2018
+
 $imageName = 'microsoft/dynamics-nav:2018-na'
+
+# Get-NavArtifactUrl -nav "2018" -country 'na'
+$ArtifactURL = 'https://bcartifacts.azureedge.net/onprem/11.0.44345.0/na'
 
 # Nav User Credentials used for New Docker Images 
 $UserName = 'NAVUser'

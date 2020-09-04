@@ -11,7 +11,7 @@ Version 18.47.2
 New-NavContainer `
     -accept_eula `
     -containerName $ContainerName `
-    -imageName $imageName `
+    -artifactUrl $ArtifactUrl `
     -licensefile $licenseFile `
     -credential $Credential `
     -updateHosts `
